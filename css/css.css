@@ -77,15 +77,16 @@ nav a {
 .content-area h2 {
 	letter-spacing: 4px;
 	padding-top: 30px;
-	font-size: 40px;
+	font-size: 2.75em;
 	margin: 0;
 	font-family: arbotek-rounded, sans-serif; 
 }
 .content-area p {
 	padding: 2% 0px;
 	line-height: 30px;
-	font-size: 1.4em;
+	font-size: 1.2083em;
 	font-family: font-family, stolzl, sans-serif;
+  margin-bottom: 150px;
 
 }
 
@@ -130,8 +131,9 @@ nav a {
   .project {
 	  background-color: rgb(255, 255, 255);
 	  text-align: center;
+    position: relative;
 	  margin-top: 150px;
-	  margin-bottom: 80px;
+	
   }
 
  
@@ -178,6 +180,7 @@ nav a {
 .project-area-5 {
 	background-color: white;
 	display: inline-block;
+ 
 }
 
 .project-area-5 img:hover {
@@ -187,6 +190,7 @@ nav a {
 .project-area-6 {
 	background-color: white;
 	display: inline-block;
+
 }
 
 .project-area-6 img:hover {
@@ -194,26 +198,32 @@ nav a {
 }
 
 .project1 {
+  padding-top: 125px;
   padding-bottom: 25px;
 }
 
 .project2 {
+  padding-top: 125px;
   padding-bottom: 25px;
 }
 
 .project3 {
+  padding-top: 125px;
   padding-bottom: 25px;
 }
 
 .project4 {
+  padding-top: 125px;
   padding-bottom: 25px;
 }
 
 .project5 {
+  padding-top: 125px;
   padding-bottom: 25px;
 }
 
 .project6 {
+  padding-top: 165px;
   padding-bottom: 25px;
 }
 
@@ -231,7 +241,7 @@ h1 {
 }
 
   h2 {
-	  font-size: 5.5em;
+	  font-size: 2.75em;
 	  font-family: arbotek-rounded, sans-serif; 
 	  color: #6f51bf;
 	 
@@ -247,8 +257,13 @@ h1 {
   img {
 max-height: 650px;
 max-width: 650px;
+object-fit: cover;
+
+  
+}
+
 	  
-  }
+  
 
 
   footer {
@@ -269,7 +284,7 @@ max-width: 650px;
 	}
 
 	.footer-content h3 {
-		font-size: 2.4rem;
+		font-size: 50.25pt;
 		font-weight: 700;
 		text-transform: capitalize;
 		line-height: 3rem;
@@ -279,11 +294,13 @@ max-width: 650px;
 
 	.footer-content p {
 		max-width: 500px;
-		margin: 10px auto;
+		margin: 20px auto;
 		line-height: 28px;
-		font-size: 14px;
+		font-size: 1.3958em;
 		color: #ffffff;
-		font-family: font-family, stolzl, sans-serif;
+		font-family: font-family, stolzl, sans-serif; 
+    padding-bottom: 55px;
+  
 	}
 
 	.socials {
@@ -625,7 +642,454 @@ font-weight: 200;
     opacity:1;
   }
 
-  @media (max-width: 500px) {
+
+
+
+  /*--------PROJECT-----*/
+
+  
+
+ 
+
+  @media only screen and (max-width:1400px) {
+.project-area-1 {max-height: 550px;
+  width: 550px;
+  margin: auto;
+ 
+}
 
   }
 
+  @media only screen and (max-width:1200px) {
+    .project-area-1 {max-height: 450px;
+      width: 450px;
+      margin: auto;
+    
+    }
+    
+      }
+
+@media only screen and (max-width:1000px) {
+    .project-area-1 {max-height: 350px;
+          width: 350px;
+          margin: auto;
+          line-height: 25px;
+   }
+        
+ }
+
+ @media only screen and (max-width:800px) {
+  .project-area-1 {max-height: 250px;
+        width: 250px;
+        margin: auto;
+        font-size: 0.5em;
+        line-height: 15px;
+ }
+      
+}
+
+@media only screen and (max-width:600px) {
+  .project-area-1 {max-height: 200px;
+        width: 200px;
+        margin: auto;
+        font-size: 0.4em;
+        line-height: 20px;
+ }
+      
+}
+
+
+-------------------------
+
+
+
+@media only screen and (max-width:1400px) {
+  .project-area-2 {max-height: 550px;
+    width: 550px;
+    margin: auto;
+   
+  }
+  
+    }
+  
+    @media only screen and (max-width:1200px) {
+      .project-area-2 {max-height: 450px;
+        width: 450px;
+        margin: auto;
+      
+      }
+      
+        }
+  
+  @media only screen and (max-width:1000px) {
+      .project-area-2 {max-height: 350px;
+            width: 350px;
+            margin: auto;
+            line-height: 25px;
+     }
+          
+   }
+  
+   @media only screen and (max-width:800px) {
+    .project-area-2 {max-height: 250px;
+          width: 250px;
+          margin: auto;
+          font-size: 0.5em;
+          line-height: 15px;
+   }
+        
+  }
+  
+  @media only screen and (max-width:600px) {
+    .project-area-2 {max-height: 200px;
+          width: 200px;
+          margin: auto;
+          font-size: 0.4em;
+          line-height: 20px;
+   }
+        
+  }
+  
+  
+  @media only screen and (max-width:1400px) {
+    .project1 {
+    
+          margin: auto;
+          position: relative;
+       top: 50px;
+      font-size: 0.9em;
+   }
+        
+  }
+  
+  @media only screen and (max-width:1200px) {
+    .project1 {
+    
+          margin: auto;
+          position: relative;
+       top: 50px;
+      font-size: 0.8em;
+   }
+        
+  }
+  
+  @media only screen and (max-width:1000px) {
+    .project1 {
+    
+          margin: auto;
+          position: relative;
+       top: 80px;
+      font-size: 0.7em;
+   }
+        
+  }
+  
+  @media only screen and (max-width:800px) {
+    .project1 {
+    
+          margin: auto;
+          position: relative;
+       top: 130px;
+      font-size: 0.6em;
+   }
+        
+  }
+
+  
+
+  /*------- PROJECT 2 -----*/
+
+
+  @media only screen and (max-width:1400px) {
+    .project-area-3 {max-height: 550px;
+      width: 550px;
+      margin: auto;
+     
+    }
+    
+      }
+    
+      @media only screen and (max-width:1200px) {
+        .project-area-3 {max-height: 450px;
+          width: 450px;
+          margin: auto;
+        
+        }
+        
+          }
+    
+    @media only screen and (max-width:1000px) {
+        .project-area-3 {max-height: 350px;
+              width: 350px;
+              margin: auto;
+              line-height: 25px;
+       }
+            
+     }
+    
+     @media only screen and (max-width:800px) {
+      .project-area-3 {max-height: 250px;
+            width: 250px;
+            margin: auto;
+            font-size: 0.5em;
+            line-height: 15px;
+     }
+          
+    }
+    
+    @media only screen and (max-width:600px) {
+      .project-area-3 {max-height: 200px;
+            width: 200px;
+            margin: auto;
+            font-size: 0.4em;
+            line-height: 20px;
+     }
+          
+    }
+    
+    
+    -------------------------
+    
+    
+    
+    @media only screen and (max-width:1400px) {
+      .project-area-4 {max-height: 550px;
+        width: 550px;
+        margin: auto;
+       
+      }
+      
+        }
+      
+        @media only screen and (max-width:1200px) {
+          .project-area-4 {max-height: 450px;
+            width: 450px;
+            margin: auto;
+          
+          }
+          
+            }
+      
+      @media only screen and (max-width:1000px) {
+          .project-area-4 {max-height: 350px;
+                width: 350px;
+                margin: auto;
+                line-height: 25px;
+         }
+              
+       }
+      
+       @media only screen and (max-width:800px) {
+        .project-area-4 {max-height: 250px;
+              width: 250px;
+              margin: auto;
+              font-size: 0.5em;
+              line-height: 15px;
+       }
+            
+      }
+      
+      @media only screen and (max-width:600px) {
+        .project-area-4 {max-height: 200px;
+              width: 200px;
+              margin: auto;
+              font-size: 0.4em;
+              line-height: 20px;
+       }
+            
+      }
+      
+      
+      @media only screen and (max-width:1400px) {
+        .project3 {
+        
+              margin: auto;
+              position: relative;
+           top: 50px;
+          font-size: 0.9em;
+       }
+            
+      }
+      
+      @media only screen and (max-width:1200px) {
+        .project3 {
+        
+              margin: auto;
+              position: relative;
+           top: 50px;
+          font-size: 0.8em;
+       }
+            
+      }
+      
+      @media only screen and (max-width:1000px) {
+        .project3 {
+        
+              margin: auto;
+              position: relative;
+           top: 80px;
+          font-size: 0.7em;
+       }
+            
+      }
+      
+      @media only screen and (max-width:800px) {
+        .project3 {
+        
+              margin: auto;
+              position: relative;
+           top: 130px;
+          font-size: 0.6em;
+       }
+            
+      }
+
+/*------- Project 3 ------*/
+
+
+
+@media only screen and (max-width:1400px) {
+  .project-area-5 {max-height: 550px;
+    width: 550px;
+    margin: auto;
+   
+  }
+  
+    }
+  
+    @media only screen and (max-width:1200px) {
+      .project-area-5 {max-height: 450px;
+        width: 450px;
+        margin: auto;
+      
+      }
+      
+        }
+  
+  @media only screen and (max-width:1000px) {
+      .project-area-5 {max-height: 350px;
+            width: 350px;
+            margin: auto;
+            line-height: 25px;
+     }
+          
+   }
+  
+   @media only screen and (max-width:800px) {
+    .project-area-5 {max-height: 250px;
+          width: 250px;
+          margin: auto;
+          font-size: 0.5em;
+          line-height: 15px;
+   }
+        
+  }
+  
+  @media only screen and (max-width:600px) {
+    .project-area-5 {max-height: 200px;
+          width: 200px;
+          margin: auto;
+          font-size: 0.4em;
+          line-height: 20px;
+   }
+        
+  }
+  
+  
+  -------------------------
+  
+  
+  
+  @media only screen and (max-width:1400px) {
+    .project-area-6 {max-height: 550px;
+      width: 550px;
+      margin: auto;
+     
+    }
+    
+      }
+    
+      @media only screen and (max-width:1200px) {
+        .project-area-6 {max-height: 450px;
+          width: 450px;
+          margin: auto;
+        
+        }
+        
+          }
+    
+    @media only screen and (max-width:1000px) {
+        .project-area-6 {max-height: 350px;
+              width: 350px;
+              margin: auto;
+              line-height: 25px;
+       }
+            
+     }
+    
+     @media only screen and (max-width:800px) {
+      .project-area-6 {max-height: 250px;
+            width: 250px;
+            margin: auto;
+            font-size: 0.5em;
+            line-height: 15px;
+     }
+          
+    }
+    
+    @media only screen and (max-width:600px) {
+      .project-area-6 {max-height: 200px;
+            width: 200px;
+            margin: auto;
+            font-size: 0.4em;
+            line-height: 20px;
+     }
+          
+    }
+    
+    
+    @media only screen and (max-width:1400px) {
+      .project5 {
+      
+            margin: auto;
+            position: relative;
+         top: 50px;
+        font-size: 0.9em;
+     }
+          
+    }
+    
+    @media only screen and (max-width:1200px) {
+      .project5 {
+      
+            margin: auto;
+            position: relative;
+         top: 50px;
+        font-size: 0.8em;
+     }
+          
+    }
+    
+    @media only screen and (max-width:1000px) {
+      .project5 {
+      
+            margin: auto;
+            position: relative;
+         top: 80px;
+        font-size: 0.7em;
+     }
+          
+    }
+    
+    @media only screen and (max-width:800px) {
+      .project5 {
+      
+            margin: auto;
+            position: relative;
+         top: 130px;
+        font-size: 0.6em;
+     }
+          
+    }
+
+   
