@@ -1,0 +1,1095 @@
+/* -------CSS RESET ------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+
+
+
+/* -------NAV AND HERO ------*/
+
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	background:  #6f51bf;;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: arbotek-rounded, sans-serif; 
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+	letter-spacing: 2px;
+
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: rgb(255, 255, 255);
+	font-family: arbotek-rounded, sans-serif; 
+	font-weight: 700;
+}
+.banner-area {
+	width: 100%;
+	height: 600px;
+	
+	position: fixed;
+	top: 100px;
+	background-image: url('../images/logo.gif');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.banner-area h2 {
+	padding-top: 8%;
+	font-size: 70px;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+}
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #ffffff;
+	height: 1500px;
+}
+.content-area h2 {
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 2.75em;
+	margin: 0;
+	font-family: arbotek-rounded, sans-serif; 
+}
+.content-area p {
+	padding: 2% 0px;
+	line-height: 30px;
+	font-size: 1.2083em;
+	font-family: font-family, stolzl, sans-serif;
+  margin-bottom: 150px;
+
+}
+
+.content-area .wrapper {
+	padding-top: 75px;
+}
+
+
+/* -------CSS GRIDS ------*/
+
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.50fr 0.25fr 2fr 0.25fr 2fr 0.25fr 2fr 0.25fr;
+	gap: 0px 0px;
+	background-color: white;
+	grid-template-areas:
+	  "project project"
+	  "project1 project2"
+	  "project-area-1 project-area-2"
+	  "project3 project4"
+	  "project-area-3 project-area-4"
+	  "project5 project6"
+	  "project-area-5 project-area-6"
+	  ". .";
+  }
+  .project { grid-area: project; }
+  .project1 { grid-area: project1; }
+  .project2 { grid-area: project2; }
+  .project3 { grid-area: project3; }
+  .project4 { grid-area: project4; }
+  .project5 { grid-area: project5; }
+  .project6 { grid-area: project6; }
+  .project-area-1 { grid-area: project-area-1; }
+  .project-area-2 { grid-area: project-area-2; }
+  .project-area-3 { grid-area: project-area-3; }
+  .project-area-4 { grid-area: project-area-4; }
+  .project-area-5 { grid-area: project-area-5; }
+  .project-area-6 { grid-area: project-area-6; }
+
+  .project {
+	  background-color: rgb(255, 255, 255);
+	  text-align: center;
+    position: relative;
+	  margin-top: 150px;
+	
+  }
+
+ 
+
+  .project-area-1 {
+	background-color: white;
+	display: inline-block;
+}
+
+.project-area-1 img:hover {
+	opacity: .5;
+}
+
+
+.project-area-2 {
+	background-color: white;
+	display: inline-block;
+}
+
+.project-area-2 img:hover {
+	opacity: .5;
+}
+
+
+.project-area-3 {
+	background-color: white;
+	display: inline-block;
+}
+
+.project-area-3 img:hover {
+	opacity: .5;
+}
+
+
+.project-area-4 {
+	background-color: white;
+	display: inline-block;
+}
+
+.project-area-4 img:hover {
+	opacity: .5;
+}
+
+.project-area-5 {
+	background-color: white;
+	display: inline-block;
+ 
+}
+
+.project-area-5 img:hover {
+	opacity: .5;
+}
+
+.project-area-6 {
+	background-color: white;
+	display: inline-block;
+
+}
+
+.project-area-6 img:hover {
+	opacity: .5;
+}
+
+.project1 {
+  padding-top: 125px;
+  padding-bottom: 25px;
+}
+
+.project2 {
+  padding-top: 125px;
+  padding-bottom: 25px;
+}
+
+.project3 {
+  padding-top: 125px;
+  padding-bottom: 25px;
+}
+
+.project4 {
+  padding-top: 125px;
+  padding-bottom: 25px;
+}
+
+.project5 {
+  padding-top: 125px;
+  padding-bottom: 25px;
+}
+
+.project6 {
+  padding-top: 165px;
+  padding-bottom: 25px;
+}
+
+
+
+
+
+
+/* ------- TYPOGRAPHY ------*/
+
+h1 {
+	font-size: 5.5em;
+	font-family: arbotek-rounded, sans-serif; 
+	color:#6f51bf;
+}
+
+  h2 {
+	  font-size: 2.75em;
+	  font-family: arbotek-rounded, sans-serif; 
+	  color: #6f51bf;
+	 
+  }
+
+  .grid-container h3 {
+	font-family: font-family, stolzl, sans-serif;
+}
+
+
+
+  
+  img {
+max-height: 650px;
+max-width: 650px;
+object-fit: cover;
+
+  
+}
+
+	  
+  
+
+
+  footer {
+ background: #6f51bf;
+ height: auto;
+ width: auto;
+ padding-top: 40px;
+
+  }
+
+  .footer-content {
+	  display:flex;
+	  align-items: center;
+	  justify-content: center;
+	  flex-direction: column;
+	  text-align: center;
+
+	}
+
+	.footer-content h3 {
+		font-size: 50.25pt;
+		font-weight: 700;
+		text-transform: capitalize;
+		line-height: 3rem;
+		color: #ffffff;
+		font-family: arbotek-rounded, sans-serif; ;
+	}
+
+	.footer-content p {
+		max-width: 500px;
+		margin: 20px auto;
+		line-height: 28px;
+		font-size: 1.3958em;
+		color: #ffffff;
+		font-family: font-family, stolzl, sans-serif; 
+    padding-bottom: 55px;
+  
+	}
+
+	.socials {
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 1rem 0 3rem 0;
+	}
+
+	.socials li {
+		margin: 0 10px;
+	}
+
+	.socials a{
+		text-decoration: none;
+		color: #ffffff;
+	}
+
+	.socials a i{
+		font-size: 1.1rem;
+		transition: color .4s ease;
+	}
+
+	.socials a:hover i{
+		color: rgb(255, 255, 255);
+	}
+
+	.footer-bottom {
+		background:rgb(255, 255, 255);
+		width: 100vw;
+		padding: 20px 0;
+		text-align: center; 
+	}
+
+	.footer-bottom p {
+		font-size: 14px;
+		word-spacing: 2px;
+		text-transform: capitalize;
+
+	}
+
+	.footer-bottom span{
+		text-transform: capitalize;
+		opacity: .4;
+font-weight: 200;
+	}
+
+
+
+	nav a:hover  {
+	text-decoration: underline;
+
+}
+
+
+
+
+
+
+.project-area-1{
+    width:auto;
+    height:auto;
+    display:inline-block;
+    position:relative;
+    transition:.3s;
+   
+  }
+  
+  .project-area-1 img{
+    width:100%;
+    height:100%;
+    transition:.3s;
+  
+  }
+  
+  .project-area-1:hover img{
+    filter:blur(2px) brightness(60%);
+    box-shadow:0 0 16px rgb(71, 71, 71);
+  }
+   
+  .project-area-1 :not(img){
+    position:absolute;
+    z-index:1;
+    top:30%;
+    width:100%;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .project-area-1 h3{
+    top:50%
+  }
+  
+  .project-area-1:hover :not(img){
+    opacity:1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .project-area-2{
+    width:auto;
+    height:auto;
+    display:inline-block;
+    position:relative;
+    transition:.3s;
+   
+  }
+  
+  .project-area-2 img{
+    width:100%;
+    height:100%;
+    transition:.3s;
+  
+  }
+  
+  .project-area-2:hover img{
+    filter:blur(2px) brightness(60%);
+    box-shadow:0 0 8px rgb(71, 71, 71);
+  }
+   
+  .project-area-2 :not(img){
+    position:absolute;
+    z-index:1;
+    top:30%;
+    width:100%;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .project-area-2 h3{
+    top:50%
+  }
+  
+  .project-area-2:hover :not(img){
+    opacity:1;
+  }
+
+
+
+
+
+
+
+
+  
+  .project-area-3{
+    width:auto;
+    height:auto;
+    display:inline-block;
+    position:relative;
+    transition:.3s;
+   
+  }
+  
+  .project-area-3 img{
+    width:100%;
+    height:100%;
+    transition:.3s;
+  
+  }
+  
+  .project-area-3:hover img{
+    filter:blur(2px) brightness(60%);
+    box-shadow:0 0 8px rgb(71, 71, 71);
+  }
+   
+  .project-area-3 :not(img){
+    position:absolute;
+    z-index:1;
+    top:30%;
+    width:100%;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .project-area-3 h3{
+    top:50%
+  }
+  
+  .project-area-3:hover :not(img){
+    opacity:1;
+  }
+
+
+
+
+
+
+
+  
+  .project-area-4{
+    width:auto;
+    height:auto;
+    display:inline-block;
+    position:relative;
+    transition:.3s;
+   
+  }
+  
+  .project-area-4 img{
+    width:100%;
+    height:100%;
+    transition:.3s;
+  
+  }
+  
+  .project-area-4:hover img{
+    filter:blur(2px) brightness(60%);
+    box-shadow:0 0 8px rgb(71, 71, 71);
+  }
+   
+  .project-area-4 :not(img){
+    position:absolute;
+    z-index:1;
+    top:30%;
+    width:100%;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .project-area-4 h3{
+    top:50%
+  }
+  
+  .project-area-4:hover :not(img){
+    opacity:1;
+  }
+
+
+
+
+
+
+
+  .project-area-5{
+    width:auto;
+    height:auto;
+    display:inline-block;
+    position:relative;
+    transition:.3s;
+   
+  }
+  
+  .project-area-5 img{
+    width:100%;
+    height:100%;
+    transition:.3s;
+  
+  }
+  
+  .project-area-5:hover img{
+    filter:blur(2px) brightness(60%);
+    box-shadow:0 0 8px rgb(71, 71, 71);
+  }
+   
+  .project-area-5 :not(img){
+    position:absolute;
+    z-index:1;
+    top:30%;
+    width:100%;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .project-area-5 h3{
+    top:50%
+  }
+  
+  .project-area-5:hover :not(img){
+    opacity:1;
+  }
+
+
+
+
+
+
+
+  .project-area-6{
+    width:auto;
+    height:auto;
+    display:inline-block;
+    position:relative;
+    transition:.3s;
+   
+  }
+  
+  .project-area-6 img{
+    width:100%;
+    height:100%;
+    transition:.3s;
+  
+  }
+  
+  .project-area-6:hover img{
+    filter:blur(2px) brightness(60%);
+    box-shadow:0 0 8px rgb(71, 71, 71);
+  }
+   
+  .project-area-6 :not(img){
+    position:absolute;
+    z-index:1;
+    top:30%;
+    width:100%;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .project-area-6 h3{
+    top:50%
+  }
+  
+  .project-area-6:hover :not(img){
+    opacity:1;
+  }
+
+
+
+
+  /*--------PROJECT-----*/
+
+  
+
+ 
+
+  @media only screen and (max-width:1400px) {
+.project-area-1 {max-height: 550px;
+  width: 550px;
+  margin: auto;
+ 
+}
+
+  }
+
+  @media only screen and (max-width:1200px) {
+    .project-area-1 {max-height: 450px;
+      width: 450px;
+      margin: auto;
+    
+    }
+    
+      }
+
+@media only screen and (max-width:1000px) {
+    .project-area-1 {max-height: 350px;
+          width: 350px;
+          margin: auto;
+          line-height: 25px;
+   }
+        
+ }
+
+ @media only screen and (max-width:800px) {
+  .project-area-1 {max-height: 250px;
+        width: 250px;
+        margin: auto;
+        font-size: 0.5em;
+        line-height: 15px;
+ }
+      
+}
+
+@media only screen and (max-width:600px) {
+  .project-area-1 {max-height: 200px;
+        width: 200px;
+        margin: auto;
+        font-size: 0.4em;
+        line-height: 20px;
+ }
+      
+}
+
+
+-------------------------
+
+
+
+@media only screen and (max-width:1400px) {
+  .project-area-2 {max-height: 550px;
+    width: 550px;
+    margin: auto;
+   
+  }
+  
+    }
+  
+    @media only screen and (max-width:1200px) {
+      .project-area-2 {max-height: 450px;
+        width: 450px;
+        margin: auto;
+      
+      }
+      
+        }
+  
+  @media only screen and (max-width:1000px) {
+      .project-area-2 {max-height: 350px;
+            width: 350px;
+            margin: auto;
+            line-height: 25px;
+     }
+          
+   }
+  
+   @media only screen and (max-width:800px) {
+    .project-area-2 {max-height: 250px;
+          width: 250px;
+          margin: auto;
+          font-size: 0.5em;
+          line-height: 15px;
+   }
+        
+  }
+  
+  @media only screen and (max-width:600px) {
+    .project-area-2 {max-height: 200px;
+          width: 200px;
+          margin: auto;
+          font-size: 0.4em;
+          line-height: 20px;
+   }
+        
+  }
+  
+  
+  @media only screen and (max-width:1400px) {
+    .project1 {
+    
+          margin: auto;
+          position: relative;
+       top: 50px;
+      font-size: 0.9em;
+   }
+        
+  }
+  
+  @media only screen and (max-width:1200px) {
+    .project1 {
+    
+          margin: auto;
+          position: relative;
+       top: 50px;
+      font-size: 0.8em;
+   }
+        
+  }
+  
+  @media only screen and (max-width:1000px) {
+    .project1 {
+    
+          margin: auto;
+          position: relative;
+       top: 80px;
+      font-size: 0.7em;
+   }
+        
+  }
+  
+  @media only screen and (max-width:800px) {
+    .project1 {
+    
+          margin: auto;
+          position: relative;
+       top: 130px;
+      font-size: 0.6em;
+   }
+        
+  }
+
+  
+
+  /*------- PROJECT 2 -----*/
+
+
+  @media only screen and (max-width:1400px) {
+    .project-area-3 {max-height: 550px;
+      width: 550px;
+      margin: auto;
+     
+    }
+    
+      }
+    
+      @media only screen and (max-width:1200px) {
+        .project-area-3 {max-height: 450px;
+          width: 450px;
+          margin: auto;
+        
+        }
+        
+          }
+    
+    @media only screen and (max-width:1000px) {
+        .project-area-3 {max-height: 350px;
+              width: 350px;
+              margin: auto;
+              line-height: 25px;
+       }
+            
+     }
+    
+     @media only screen and (max-width:800px) {
+      .project-area-3 {max-height: 250px;
+            width: 250px;
+            margin: auto;
+            font-size: 0.5em;
+            line-height: 15px;
+     }
+          
+    }
+    
+    @media only screen and (max-width:600px) {
+      .project-area-3 {max-height: 200px;
+            width: 200px;
+            margin: auto;
+            font-size: 0.4em;
+            line-height: 20px;
+     }
+          
+    }
+    
+    
+    -------------------------
+    
+    
+    
+    @media only screen and (max-width:1400px) {
+      .project-area-4 {max-height: 550px;
+        width: 550px;
+        margin: auto;
+       
+      }
+      
+        }
+      
+        @media only screen and (max-width:1200px) {
+          .project-area-4 {max-height: 450px;
+            width: 450px;
+            margin: auto;
+          
+          }
+          
+            }
+      
+      @media only screen and (max-width:1000px) {
+          .project-area-4 {max-height: 350px;
+                width: 350px;
+                margin: auto;
+                line-height: 25px;
+         }
+              
+       }
+      
+       @media only screen and (max-width:800px) {
+        .project-area-4 {max-height: 250px;
+              width: 250px;
+              margin: auto;
+              font-size: 0.5em;
+              line-height: 15px;
+       }
+            
+      }
+      
+      @media only screen and (max-width:600px) {
+        .project-area-4 {max-height: 200px;
+              width: 200px;
+              margin: auto;
+              font-size: 0.4em;
+              line-height: 20px;
+       }
+            
+      }
+      
+      
+      @media only screen and (max-width:1400px) {
+        .project3 {
+        
+              margin: auto;
+              position: relative;
+           top: 50px;
+          font-size: 0.9em;
+       }
+            
+      }
+      
+      @media only screen and (max-width:1200px) {
+        .project3 {
+        
+              margin: auto;
+              position: relative;
+           top: 50px;
+          font-size: 0.8em;
+       }
+            
+      }
+      
+      @media only screen and (max-width:1000px) {
+        .project3 {
+        
+              margin: auto;
+              position: relative;
+           top: 80px;
+          font-size: 0.7em;
+       }
+            
+      }
+      
+      @media only screen and (max-width:800px) {
+        .project3 {
+        
+              margin: auto;
+              position: relative;
+           top: 130px;
+          font-size: 0.6em;
+       }
+            
+      }
+
+/*------- Project 3 ------*/
+
+
+
+@media only screen and (max-width:1400px) {
+  .project-area-5 {max-height: 550px;
+    width: 550px;
+    margin: auto;
+   
+  }
+  
+    }
+  
+    @media only screen and (max-width:1200px) {
+      .project-area-5 {max-height: 450px;
+        width: 450px;
+        margin: auto;
+      
+      }
+      
+        }
+  
+  @media only screen and (max-width:1000px) {
+      .project-area-5 {max-height: 350px;
+            width: 350px;
+            margin: auto;
+            line-height: 25px;
+     }
+          
+   }
+  
+   @media only screen and (max-width:800px) {
+    .project-area-5 {max-height: 250px;
+          width: 250px;
+          margin: auto;
+          font-size: 0.5em;
+          line-height: 15px;
+   }
+        
+  }
+  
+  @media only screen and (max-width:600px) {
+    .project-area-5 {max-height: 200px;
+          width: 200px;
+          margin: auto;
+          font-size: 0.4em;
+          line-height: 20px;
+   }
+        
+  }
+  
+  
+  -------------------------
+  
+  
+  
+  @media only screen and (max-width:1400px) {
+    .project-area-6 {max-height: 550px;
+      width: 550px;
+      margin: auto;
+     
+    }
+    
+      }
+    
+      @media only screen and (max-width:1200px) {
+        .project-area-6 {max-height: 450px;
+          width: 450px;
+          margin: auto;
+        
+        }
+        
+          }
+    
+    @media only screen and (max-width:1000px) {
+        .project-area-6 {max-height: 350px;
+              width: 350px;
+              margin: auto;
+              line-height: 25px;
+       }
+            
+     }
+    
+     @media only screen and (max-width:800px) {
+      .project-area-6 {max-height: 250px;
+            width: 250px;
+            margin: auto;
+            font-size: 0.5em;
+            line-height: 15px;
+     }
+          
+    }
+    
+    @media only screen and (max-width:600px) {
+      .project-area-6 {max-height: 200px;
+            width: 200px;
+            margin: auto;
+            font-size: 0.4em;
+            line-height: 20px;
+     }
+          
+    }
+    
+    
+    @media only screen and (max-width:1400px) {
+      .project5 {
+      
+            margin: auto;
+            position: relative;
+         top: 50px;
+        font-size: 0.9em;
+     }
+          
+    }
+    
+    @media only screen and (max-width:1200px) {
+      .project5 {
+      
+            margin: auto;
+            position: relative;
+         top: 50px;
+        font-size: 0.8em;
+     }
+          
+    }
+    
+    @media only screen and (max-width:1000px) {
+      .project5 {
+      
+            margin: auto;
+            position: relative;
+         top: 80px;
+        font-size: 0.7em;
+     }
+          
+    }
+    
+    @media only screen and (max-width:800px) {
+      .project5 {
+      
+            margin: auto;
+            position: relative;
+         top: 130px;
+        font-size: 0.6em;
+     }
+          
+    }
+
+   
